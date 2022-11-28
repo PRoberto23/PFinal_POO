@@ -1,7 +1,7 @@
 # PFinal_POO
 Esboço do trabalho final da matéria de POO
 
-##Até agora:
+## Até agora:
 criei uma página de login, cadastro e só adicionei uma página que vai ser referente a de escolha dos projetos.
 a página de login aceita um único usuário até agora, mas ele foi adicionado manualmente no código enquanto estava testando
 Usuário: admin
