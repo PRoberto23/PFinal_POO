@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="512.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginpage.ImcPageController">
+   <children>
+      <Pane fx:id="pnPane" layoutX="58.0" layoutY="48.0" prefHeight="405.0" prefWidth="512.0">
+         <children>
+            <Label layoutX="160.0" layoutY="20.0" prefHeight="30.0" prefWidth="193.0" text="Calculadora de IMC" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Pane layoutX="29.0" layoutY="59.0" prefHeight="188.0" prefWidth="455.0">
+               <children>
+                  <Label layoutX="43.0" layoutY="33.0" prefHeight="27.0" prefWidth="83.0" text="Weight" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="43.0" layoutY="88.0" prefHeight="25.0" prefWidth="83.0" text="Height" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnCalcIMC" layoutX="170.0" layoutY="127.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="115.0" text="Calculate">
+                     <font>
+                        <Font size="16.0" />
+                     </font></Button>
+                  <TextField fx:id="txtRecPeso" layoutX="147.0" layoutY="33.0" prefHeight="25.0" prefWidth="259.0" />
+                  <TextField fx:id="txtRecAltura" layoutX="147.0" layoutY="87.0" prefHeight="25.0" prefWidth="259.0" />
+               </children>
+            </Pane>
+            <Pane layoutX="29.0" layoutY="249.0" prefHeight="120.0" prefWidth="455.0">
+               <children>
+                  <Label layoutX="22.0" layoutY="20.0" prefHeight="25.0" prefWidth="125.0" text="   IMC:" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="22.0" layoutY="52.0" prefHeight="25.0" prefWidth="125.0" text="Classificação:" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
