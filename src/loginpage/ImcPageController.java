@@ -6,6 +6,7 @@ package loginpage;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -24,9 +25,9 @@ public class ImcPageController implements Initializable {
     @FXML
     private Button btnCalcIMC;
     @FXML
-    private TextField txtRecPeso;
+    private TextField txtPeso;
     @FXML
-    private TextField txtRecAltura;
+    private TextField txtAltura;
 
     /**
      * Initializes the controller class.
@@ -36,13 +37,13 @@ public class ImcPageController implements Initializable {
         // TODO
     }    
     
-    /*
-    private void calcular(ActionEvent event) {
-      Float peso, altura, IMC;
-        peso = Float.parseFloat(txtpeso.getText());
-        altura = Float.parseFloat(txtaltura.getText());
-        IMC = peso / (altura*altura); 
-        txtIMC.setText (String.valueOf(IMC));
+    private void calcular(ActionEvent event ) {
+      Float peso, altura, imc;
+        peso = Float.parseFloat(txtPeso.getText());
+        altura = Float.parseFloat(txtAltura.getText());
+        imc = peso / (altura*altura); 
+        System.out.println(imc);
+        //txtIMC.setText (String.valueOf(IMC));
     }
-    */
+    
 }
