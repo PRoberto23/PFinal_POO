@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="688.0" style="-fx-background-color: #363636; -fx-background-radius: 20;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="imc.DesingImcController">
+   <children>
+      <Button fx:id="calcularbutton" layoutX="246.0" layoutY="247.0" mnemonicParsing="false" onAction="#calcular" prefHeight="56.0" prefWidth="237.0" style="-fx-background-radius: 30; -fx-background-color: #4682B4;" text="Calcular IMC" textFill="PALETURQUOISE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="21.0" />
+         </font>
+      </Button>
+      <Label text="Label" />
+      <Label graphicTextGap="0.0" layoutX="238.0" layoutY="38.0" text="Calcule seu IMC" textAlignment="CENTER" textFill="PALETURQUOISE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="105.0" prefHeight="37.0" prefWidth="65.0" text="Peso:" textAlignment="CENTER" textFill="PALETURQUOISE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="180.0" text="Altura:" textFill="PALETURQUOISE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="324.0" text="IMC:" textFill="PALETURQUOISE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="110.0" layoutY="382.0" text="Classificação:" textFill="PALETURQUOISE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtpeso" layoutX="171.0" layoutY="109.0" prefHeight="31.0" prefWidth="201.0" style="-fx-background-color: #E8E8E8;" />
+      <TextField fx:id="txtaltura" layoutX="185.0" layoutY="184.0" prefHeight="31.0" prefWidth="201.0" style="-fx-background-color: #E8E8E8;" />
+      <TextField fx:id="txtIMC" layoutX="171.0" layoutY="328.0" prefHeight="31.0" prefWidth="201.0" style="-fx-background-color: #E8E8E8;" />
+      <TextField fx:id="txtclassificaçao" layoutX="265.0" layoutY="386.0" prefHeight="31.0" prefWidth="201.0" style="-fx-background-color: #E8E8E8;" />
+   </children>
+</AnchorPane>

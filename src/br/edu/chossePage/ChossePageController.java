@@ -6,5 +6,5 @@ import java.awt.event.ActionEvent;
 import java.io.IOException;
 
 public class ChossePageController  {
-
+                  
 }
