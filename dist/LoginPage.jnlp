@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="LoginPage.jar" size="885868" download="eager" />
+    <jar href="LoginPage.jar" size="888900" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="br.edu.loginPage.LoginPageApplication"  name="LoginPage" />
   <update check="always"/>
