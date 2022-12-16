@@ -9,6 +9,7 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class LoginPageApplication extends Application {
+    private static Stage stage;
 
     @Override
     public void start(Stage stage) throws Exception {
@@ -23,6 +24,9 @@ public class LoginPageApplication extends Application {
         stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
+
+    }
+    public void fechaAba(){
 
     }
 

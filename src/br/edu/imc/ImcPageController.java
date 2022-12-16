@@ -26,8 +26,14 @@ public class ImcPageController implements Initializable {
     private Button btnCalcIMC;
     @FXML
     private TextField txtPeso;
+
+    @FXML
+    private TextField txtIMC;
     @FXML
     private TextField txtAltura;
+
+    @FXML
+    private TextField txtClassifi;
 
     /**
      * Initializes the controller class.
@@ -35,15 +41,43 @@ public class ImcPageController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
-    
-    private void calcular(ActionEvent event ) {
-      Float peso, altura, imc;
+    }
+
+    Float peso, altura, imc;
+    public void calcular(ActionEvent event ) {
+
         peso = Float.parseFloat(txtPeso.getText());
         altura = Float.parseFloat(txtAltura.getText());
-        imc = peso / (altura*altura); 
-        System.out.println(imc);
-        //txtIMC.setText (String.valueOf(IMC));
+        imc = peso / (altura*altura);
+        txtIMC.setText (String.valueOf(imc));
+    }
+    public void clasificacao(ActionEvent event){
+        String classfic;
+        if(imc < 18.5){
+            classfic = "Abaixo do peso normal";
+            txtClassifi.setText(String.valueOf(classfic));
+        }
+        else if(imc > 18.5 && imc < 24.9){
+            classfic = "Peso Normal";
+            txtClassifi.setText(String.valueOf(classfic));
+        }
+        else if(imc > 25 && imc < 29.9){
+            classfic = "Excesso de peso";
+            txtClassifi.setText(String.valueOf(classfic));
+        }
+        else if(imc > 30 && imc < 34.9){
+            classfic = "Obesidade Classe I";
+            txtClassifi.setText(String.valueOf(classfic));
+        }
+        else if(imc > 35 && imc < 39.9){
+            classfic = "Obesidade Classe II";
+            txtClassifi.setText(String.valueOf(classfic));
+        }
+        else if(imc > 40){
+            classfic = "Obesidade Classe III";
+            txtClassifi.setText(String.valueOf(classfic));
+        }
+
     }
     
 }
