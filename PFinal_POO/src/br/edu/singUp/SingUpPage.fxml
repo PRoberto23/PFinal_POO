@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="448.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.singUp.SingUpPageController">
+   <children>
+      <Pane fx:id="pnPane" layoutX="59.0" layoutY="27.0" prefHeight="395.0" prefWidth="500.0">
+         <children>
+            <TextField fx:id="txtUserName" layoutX="194.0" layoutY="99.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="User name" />
+            <TextField fx:id="txtEmailadd" layoutX="194.0" layoutY="139.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="E-mail adress" />
+            <TextField fx:id="txtEmailconfir" layoutX="194.0" layoutY="179.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Confirm your e-mail" />
+            <PasswordField fx:id="psdCreate" layoutX="194.0" layoutY="220.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Create a password" />
+            <PasswordField fx:id="psdConfirmpass" layoutX="194.0" layoutY="259.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Conifrm your password" />
+            <Label layoutX="21.0" layoutY="102.0" text="Enter your user name:" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="142.0" text="Enter your e-mail adress:" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="182.0" text="Confirm your e-mail adress:" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="21.0" layoutY="223.0" text="Create a password:" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="262.0" text="Confirm your password:" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="179.0" layoutY="34.0" text="Create a account" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnCreate" layoutX="120.0" layoutY="323.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="261.0" text="Create">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

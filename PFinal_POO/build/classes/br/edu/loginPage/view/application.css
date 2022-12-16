@@ -1,0 +1,130 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28/11/2022, 00:30:10
+    Author     : Paulo Roberto
+*/
+#anPane{
+    -fx-background-radius: 22px;
+    
+}
+
+#pnPane{
+    -fx-background-radius: 22px;
+    -fx-background-color: rgba(61, 61, 61, 1);
+}
+
+#btnSingIn{
+    -fx-background-radius: 50px;
+    -fx-background-color: rgba(41, 82, 96, 1);
+    -fx-text-fill: white;
+}
+
+#txtEmail{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;  
+}
+
+#psdSenha{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+#txtUserName{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+#txtEmailadd{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+#txtEmailconfir{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+#psdCreate{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+#psdConfirmpass{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+#btnCreate{
+    -fx-background-radius: 50px;
+    -fx-background-color: rgba(41, 82, 96, 1);
+    -fx-text-fill: white;
+}
+
+#btnClose{
+    -fx-background-radius: 1px;
+    -fx-background-color: rgba(61, 61, 61, 1);
+
+}
+
+#btnCalcIMC{
+    -fx-background-radius: 50px;
+    -fx-background-color: rgba(41, 82, 96, 1);
+    -fx-text-fill: white;
+}
+
+#txtPeso{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;  
+
+}
+
+#txtAltura{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;  
+
+}
+
+#pnIMC{
+    -fx-background-radius: 22px;
+    -fx-background-color: rgba(61, 61, 61, 1);
+}
+
