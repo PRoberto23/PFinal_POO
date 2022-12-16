@@ -1,7 +1,6 @@
 package br.edu.loginPage;
 
 import java.io.IOException;
-import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -60,18 +59,18 @@ public class LoginPageController implements Initializable {
            String userName = txtEmail.getText();
            String password = psdSenha.getText();
            
-           if(userName.equalsIgnoreCase("admin") && password.equalsIgnoreCase("admin")){
+           if(userName.equalsIgnoreCase("admin") && password.equalsIgnoreCase("admin")) {
                Stage escpage = new Stage();
-               Parent root = FXMLLoader.load(getClass().getResource("/br/edu/choosePage/Escolhapage.fxml"));
-        
-                Scene scene = new Scene(root);
-                scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/application.css").toExternalForm());
-        
-                escpage.setTitle("Escolha");
-                escpage.setScene(scene);
-                escpage.show();
+               Parent root = FXMLLoader.load(getClass().getResource("/br/edu/chossePage/view/chossePage.fxml"));
+
+               Scene scene = new Scene(root);
+               scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/styleLoginPage.css").toExternalForm());
+
+               escpage.setTitle("Escolha");
+               escpage.setScene(scene);
+               escpage.show();
            }
-        }
+         }
     }
 }
 

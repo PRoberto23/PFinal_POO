@@ -14,7 +14,7 @@ public class LoginPageApplication extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/br/edu/loginPage/view/LoginPage.fxml"));
         
         Scene scene = new Scene(root);
-        scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/application.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/styleLoginPage.css").toExternalForm());
         
         stage.setTitle("Login");
         stage.setScene(scene);

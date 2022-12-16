@@ -1,9 +1,8 @@
-#pnPane{
-    -fx-background-radius: 22px;
+#pnPane {
     -fx-background-color: rgba(61, 61, 61, 1);
 }
 
-#btnSingIn{
+#btnSingIn {
     -fx-background-radius: 50px;
     -fx-background-color: rgba(41, 82, 96, 1);
     -fx-text-fill: white;
@@ -77,3 +76,5 @@
     -fx-background-color: rgba(41, 82, 96, 1);
     -fx-text-fill: white;
 }
+
+#

@@ -9,9 +9,9 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="anPane" prefHeight="448.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.loginPage.LoginPageController">
+<AnchorPane fx:id="anPane" layoutY="-6.0" prefHeight="400.0" prefWidth="522.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.loginPage.LoginPageController">
    <children>
-      <Pane fx:id="pnPane" layoutX="48.0" layoutY="24.0" prefHeight="400.0" prefWidth="522.0">
+      <Pane fx:id="pnPane" prefHeight="400.0" prefWidth="522.0">
          <children>
             <TextField fx:id="txtEmail" layoutX="172.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Insert your e-mail adress" style="-fx-border-radius: 20, 20;">
                <font>
