@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class LoginPageApplication extends Application {
 
@@ -14,9 +15,12 @@ public class LoginPageApplication extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/br/edu/loginPage/view/LoginPage.fxml"));
         
         Scene scene = new Scene(root);
-        scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/styleLoginPage.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/application.css").toExternalForm());
+        
+        stage.initStyle(StageStyle.UNDECORATED);
         
         stage.setTitle("Login");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
 
