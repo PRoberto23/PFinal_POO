@@ -9,7 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="anPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="507.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.loginPage.LoginPageController">
+<AnchorPane fx:id="anPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="505.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.loginPage.LoginPageController">
    <children>
       <Pane fx:id="pnPane" layoutX="69.0" layoutY="58.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="392.0" prefWidth="533.0" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="68.0" AnchorPane.topAnchor="58.0">
          <children>
@@ -50,7 +50,7 @@
                         <Rectangle2D />
                      </viewport>
                   </ImageView>
-                  <Button fx:id="btnClose" layoutX="508.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeBtn" text="X" textFill="WHITE">
+                  <Button fx:id="btnClose" layoutX="491.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeBtn" prefHeight="40.0" prefWidth="46.0" text="X" textFill="WHITE">
                      <font>
                         <Font size="15.0" />
                      </font>
