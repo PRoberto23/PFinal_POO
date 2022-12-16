@@ -1,8 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML.java to edit this template
- */
-package loginpage;
+
+package br.edu.loginPage;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,22 +7,19 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- *
- * @author Paulo Roberto
- */
-public class Main extends Application {
-    
+public class LoginPageApplication extends Application {
+
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("LoginPage.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/br/edu/loginPage/view/LoginPage.fxml"));
         
         Scene scene = new Scene(root);
-        scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/application.css").toExternalForm());
         
         stage.setTitle("Login");
         stage.setScene(scene);
         stage.show();
+
     }
 
     /**

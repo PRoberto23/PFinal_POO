@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
- */
-package loginpage;
+package br.edu.loginPage;
 
+import java.io.IOException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -23,11 +20,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-/**
- * FXML Controller class
- *
- * @author Paulo Roberto
- */
+
 public class LoginPageController implements Initializable {
 
     @FXML
@@ -63,26 +56,22 @@ public class LoginPageController implements Initializable {
 
     @FXML
     private void loginButton(ActionEvent event) throws IOException {
-        
          if(event.getSource() == btnSingIn){
            String userName = txtEmail.getText();
            String password = psdSenha.getText();
            
            if(userName.equalsIgnoreCase("admin") && password.equalsIgnoreCase("admin")){
                Stage escpage = new Stage();
-               Parent root = FXMLLoader.load(getClass().getResource("Escolhapage.fxml"));
+               Parent root = FXMLLoader.load(getClass().getResource("/br/edu/choosePage/Escolhapage.fxml"));
         
                 Scene scene = new Scene(root);
-                scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+                scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/application.css").toExternalForm());
         
                 escpage.setTitle("Escolha");
                 escpage.setScene(scene);
                 escpage.show();
            }
-           
-           
         }
-
     }
 }
 

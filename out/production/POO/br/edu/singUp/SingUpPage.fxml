@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -11,6 +12,12 @@
    <children>
       <Pane fx:id="pnPane" layoutX="59.0" layoutY="27.0" prefHeight="395.0" prefWidth="500.0">
          <children>
+            <ImageView fx:id="imgBack" fitHeight="448.0" fitWidth="623.0" layoutX="-61.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true" >
+                <image>
+                    <Image url="@bck_image.jpg">                  
+                    </Image>
+                </image>
+            </ImageView>
             <TextField fx:id="txtUserName" layoutX="194.0" layoutY="99.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="User name" />
             <TextField fx:id="txtEmailadd" layoutX="194.0" layoutY="139.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="E-mail adress" />
             <TextField fx:id="txtEmailconfir" layoutX="194.0" layoutY="179.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Confirm your e-mail" />
@@ -46,7 +53,7 @@
                   <Font name="Arial" size="16.0" />
                </font>
             </Label>
-            <Button fx:id="btnCreate" layoutX="207.0" layoutY="332.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="261.0" text="Create">
+            <Button fx:id="btnCreate" layoutX="120.0" layoutY="323.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="261.0" text="Create">
                <font>
                   <Font name="Arial" size="15.0" />
                </font>
