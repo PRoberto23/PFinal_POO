@@ -64,7 +64,7 @@ public class LoginPageController implements Initializable {
            
            if(userName.equalsIgnoreCase("admin") && password.equalsIgnoreCase("admin")){
                Stage escpage = new Stage();
-               Parent root = FXMLLoader.load(getClass().getResource("/br/edu/choosePage/Escolhapage.fxml"));
+               Parent root = FXMLLoader.load(getClass().getResource("/br/edu/choosePage/view/chossePage.fxml"));
         
                 Scene scene = new Scene(root);
                 scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/application.css").toExternalForm());

@@ -8,16 +8,10 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="448.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="448.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.singUp.SingUpPageController">
    <children>
       <Pane fx:id="pnPane" layoutX="59.0" layoutY="27.0" prefHeight="395.0" prefWidth="500.0">
          <children>
-            <ImageView fx:id="imgBack" fitHeight="448.0" fitWidth="623.0" layoutX="-61.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true" >
-                <image>
-                    <Image url="@bck_image.jpg">                  
-                    </Image>
-                </image>
-            </ImageView>
             <TextField fx:id="txtUserName" layoutX="194.0" layoutY="99.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="User name" />
             <TextField fx:id="txtEmailadd" layoutX="194.0" layoutY="139.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="E-mail adress" />
             <TextField fx:id="txtEmailconfir" layoutX="194.0" layoutY="179.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Confirm your e-mail" />

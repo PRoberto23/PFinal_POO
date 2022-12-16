@@ -9,52 +9,64 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane fx:id="anPane" prefHeight="448.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.loginPage.LoginPageController">
+<AnchorPane fx:id="anPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="507.0" prefWidth="693.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.loginPage.LoginPageController">
    <children>
-      <Pane fx:id="pnPane" layoutX="48.0" layoutY="24.0" prefHeight="400.0" prefWidth="522.0">
+      <Pane fx:id="pnPane" layoutX="69.0" layoutY="58.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="392.0" prefWidth="533.0" AnchorPane.bottomAnchor="57.0" AnchorPane.leftAnchor="69.0" AnchorPane.rightAnchor="68.0" AnchorPane.topAnchor="58.0">
          <children>
-            <TextField fx:id="txtEmail" layoutX="172.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Insert your e-mail adress" style="-fx-border-radius: 20, 20;">
-               <font>
-                  <Font size="13.0" />
-               </font>
-            </TextField>
-            <PasswordField fx:id="psdSenha" layoutX="172.0" layoutY="143.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Insert your password" style="-fx-border-radius: 20;">
-               <font>
-                  <Font size="13.0" />
-               </font>
-            </PasswordField>
-            <Hyperlink fx:id="hlinkAjuda" layoutX="312.0" layoutY="175.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="132.0" text="Need help? Click Here" />
-            <Label fx:id="lblMEPD" layoutX="207.0" layoutY="30.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="77.0" text="MEPD" textFill="WHITE">
-               <font>
-                  <Font size="24.0" />
-               </font>
-            </Label>
-            <Button fx:id="btnSingIn" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="131.0" layoutY="235.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#loginButton" prefHeight="40.0" prefWidth="261.0" text="Sing In">
+            <Pane centerShape="false" focusTraversable="true" layoutX="11.0" layoutY="7.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="236.0" prefWidth="535.0">
+               <children>
+                  <PasswordField fx:id="psdSenha" layoutX="148.0" layoutY="150.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Insert your password" style="-fx-border-radius: 20;">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </PasswordField>
+                  <TextField fx:id="txtEmail" layoutX="148.0" layoutY="97.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="272.0" promptText="Insert your e-mail adress" style="-fx-border-radius: 20, 20;">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="lblMEPD" layoutX="191.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="77.0" text="MEPD" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblPassword" layoutX="49.0" layoutY="153.0" text="Password:" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblEmail" layoutX="49.0" layoutY="100.0" text="E-mal:" textFill="WHITE">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Hyperlink fx:id="hlinkAjuda" layoutX="323.0" layoutY="182.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="132.0" text="Need help? Click Here" />
+                  <ImageView fx:id="imgJavaIcon" fitHeight="60.0" fitWidth="64.0" layoutX="284.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@java_icon.png">
+                    </Image>
+                      </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Button fx:id="btnClose" layoutX="508.0" layoutY="2.0" mnemonicParsing="false" onAction="#closeBtn" text="X" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+            <Button fx:id="btnSingIn" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="157.0" layoutY="259.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#loginButton" prefHeight="40.0" prefWidth="261.0" text="Sing In">
                <font>
                   <Font size="19.0" />
                </font>
             </Button>
-            <Hyperlink fx:id="hlinkSingUp" layoutX="181.0" layoutY="287.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="161.0" text="New in here? Sing Up">
+            <Hyperlink fx:id="hlinkSingUp" layoutX="207.0" layoutY="312.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="28.0" prefWidth="161.0" text="New in here? Sing Up">
                <font>
                   <Font size="15.0" />
                </font>
             </Hyperlink>
-            <ImageView fx:id="imgJavaIcon" fitHeight="60.0" fitWidth="64.0" layoutX="280.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                <image>
-                    <Image url="@java_icon.png">
-                    </Image>
-                </image>
-            </ImageView>
-            <Label fx:id="lblEmail" layoutX="81.0" layoutY="91.0" text="E-mal:" textFill="WHITE">
-               <font>
-                  <Font size="13.0" />
-               </font>
-            </Label>
-            <Label fx:id="lblPassword" layoutX="81.0" layoutY="147.0" text="Password:" textFill="WHITE">
-               <font>
-                  <Font size="13.0" />
-               </font>
-            </Label>
          </children>
       </Pane>
    </children>
