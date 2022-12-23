@@ -56,18 +56,25 @@ public class LoginPageController implements Initializable {
         // TODO
     }    
 
+    /*
+    Metodo que usa "ActionEvent" para criar uma cena que usa o arquivo FXML "chossePage", a ação só é executada quando
+    o botão (id: btnSingIn) é clicado. O único usuário adicionado é o 'admin' que foi adicionado manualmente no método
+    */
+    
+    /*
+    Precisa adicionar ação do teclado para executar o método quando o enter for clicado e não somente quando o botão é clicado
+    */
     @FXML
     private void loginButton(ActionEvent event) throws IOException {
-         if(event.getSource() == btnSingIn){
+         if(event.getSource() == btnSingIn ){
            String userName = txtEmail.getText();
            String password = psdSenha.getText();
            
            if(userName.equalsIgnoreCase("admin") && password.equalsIgnoreCase("admin")){
                Stage escpage = new Stage();
-               Parent root = FXMLLoader.load(getClass().getResource("/br/edu/choosePage/view/chossePage.fxml"));
+               Parent root = FXMLLoader.load(getClass().getResource("/br/edu/chossePage/chossePage.fxml"));
         
                 Scene scene = new Scene(root);
-                scene.getStylesheets().add(getClass().getResource("/br/edu/loginPage/view/application.css").toExternalForm());
         
                 escpage.setTitle("Escolha");
                 escpage.setScene(scene);
@@ -76,6 +83,9 @@ public class LoginPageController implements Initializable {
         }
     }
     
+    /*
+    Método que habilita o botão que fecha a página de login
+    */
     @FXML
     private  void closeBtn (ActionEvent evt){
         System.exit(0);

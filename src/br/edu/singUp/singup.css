@@ -1,0 +1,75 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+#anPaneSing{
+    -fx-background-radius: 22px;
+    -fx-background-color: linear-gradient(to top, #4F4F4F, #696969);
+}
+
+#pnPane{
+    -fx-background-radius: 22px;
+    -fx-background-color: rgba(61, 61, 61, 1);
+}
+
+/* estilo Text Field "User Name" da pagina de Sing In */
+#txtUserName{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+/* estilo Text Field "Add Email" da pagina de Sing In */
+#txtEmailadd{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+/* estilo Text Field "Confirm Email" da pagina de Sing In */
+#txtEmailconfir{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+/* estilo Password Field "Password Create" da pagina de Sing In */
+#psdCreate{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+/* estilo Password Field "Password Confirm" da pagina de Sing In */
+#psdConfirmpass{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+/* estilo Button "Button Create Account" da pagina de Sing In */
+#btnCreate{
+    -fx-background-radius: 50px;
+    -fx-background-color: rgba(41, 82, 96, 1);
+    -fx-text-fill: white;
+}
+
+

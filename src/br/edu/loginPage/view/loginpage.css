@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28/11/2022, 00:30:10
+    Author     : Paulo Roberto
+*/
+
+/* estilo da Anchor Pane da pagina de login */
+#anPane{
+    -fx-background-radius: 22px;
+    -fx-background-color: linear-gradient(to top, #848484, #696969);
+}
+
+/* estilo da Pane principal da pagina de login */
+#pnPane{
+    -fx-background-radius: 22px;
+    -fx-background-color: rgba(61, 61, 61, 1);
+}
+
+/* estilo botao de sing in da pagina de login */
+#btnSingIn{
+    -fx-background-radius: 50px;
+    -fx-background-color: rgba(41, 82, 96, 1);
+    -fx-text-fill: white;
+}
+
+/* estilo Text Field "Email" da pagina de login */
+#txtEmail{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;  
+}
+
+/* estilo Password Fiel "Senha" da pagina de login */
+#psdSenha{
+    -fx-background-color: transparent;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+    -fx-border-radius: 12px;
+    -fx-text-fill: white;
+}
+
+/* estilo Button "Button Close" da pagina de Login */
+#btnClose{
+    -fx-background-radius: 1px;
+    -fx-background-color: rgba(61, 61, 61, 1);
+
+}
+
+

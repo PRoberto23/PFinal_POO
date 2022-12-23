@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="512.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginpage.ImcPageController">
+<AnchorPane id="AnchorPane" prefHeight="512.0" prefWidth="627.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
    <children>
       <Pane fx:id="pnPane" layoutX="58.0" layoutY="48.0" prefHeight="405.0" prefWidth="512.0">
          <children>
@@ -28,7 +28,7 @@
                         <Font size="16.0" />
                      </font>
                   </Label>
-                  <Button fx:id="btnCalcIMC" layoutX="170.0" layoutY="127.0" mnemonicParsing="false" onAction="#calcular" onMouseClicked="#classificacao" prefHeight="48.0" prefWidth="115.0" text="Calculate">
+                  <Button fx:id="btnCalcIMC" layoutX="170.0" layoutY="127.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="115.0" text="Calculate">
                      <font>
                         <Font size="16.0" />
                      </font></Button>
